@@ -1,0 +1,13 @@
+name: Customs
+main: guy.theoneandonly.customs.Customs
+author: Guy
+version: 0.6.0
+commands:
+  cpro:
+    description: /<command> [custom] [exp] or /<command> <show|hide>
+  cpa:
+    description: /<command> <player> <custom> <expGained> Console Only.
+  cpd:
+    description: /<command> <player> <custom> <expLost> Console Only.
+  cproreload:
+    description: Reloads plugin.
