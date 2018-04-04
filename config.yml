@@ -1,0 +1,55 @@
+weaponsmithing:
+  visible: true
+  permission: custom.weaponsmithing
+  custom:
+    level 1:
+      xpneeded: 300
+      up_commands:
+        - give @p 1 1
+      down_commands:
+        - time set 0
+      skills:
+      - item you get
+    level 2:
+      xpneeded: 300
+      up_commands:
+        - give @p 1 2
+      down_commands:
+        - time set 1599
+      skills:
+      - level 2 item
+    level 3:
+      xpneeded: 300
+      up_commands:
+        - give @p 1 3
+      down_commands:
+        - time set 3199
+      skills:
+      - pt2 item you
+    level 4:
+      xpneeded: 300
+      up_commands:
+        - give @p 1 4
+      down_commands:
+        - time set 4799
+      skills:
+      - pt2 level 2
+armorsmithing:
+  visible: true
+  custom:
+    level 1:
+      xpneeded: 300
+      up_commands:
+        - give @p 2 1
+      down_commands:
+        - time set 6399
+      skills:
+      - second prof item you get
+    level 2:
+      xpneeded: 300
+      up_commands:
+        - give @p 2 2
+      down_commands:
+        - time set 7999
+      skills:
+      - etc etc
